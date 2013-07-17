@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Simple Marquee</title>
+<script type="text/javascript" src="SimpleMarquee.js"></script>
+</head>
+
+<body>
+<div id="marquee" style="width:100px">Just Test for the Simple Marquee with pure JavaScript.</div>
+<script>
+var mymarquee = SimpleMarquee("marquee");
+/* or
+var mymarquee = SimpleMarquee(document.getElementById("marquee"), {speed:15,delay_start:1000,delay_after:1000});
+*/
+// if the width of the container #marquee changes, you need use the mymarquee.fresh() to fresh the object
+</script>
+</body>
+</html>
