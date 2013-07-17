@@ -13,7 +13,7 @@ function SimpleMarquee(el, opts){
 	this.opts = {
 		speed: 10,  // millisecond, speed for the animation
 		delay_start: 5000,  // millisecond, delay before start
-		delay_after: 3000,  //millisecond, delay after the animation finished
+		delay_after: 3000  //millisecond, delay after the animation finished
 	};
 	for (i in opts) this.opts[i] = opts[i];
 	this._init = function(){
